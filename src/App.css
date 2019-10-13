@@ -1,32 +1,31 @@
-.App {
-  text-align: center;
+.btn{
+ margin: 2px 0;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.card{
+  max-width: 700px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.row{
+  margin: 0;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card{
+  text-align: justify;
+  padding: 15px 15px;
+}
+
+#questionNum{
+  align-self: center;
+}
+
+#header.navbar{
+  justify-content: center;
+  margin: 20px 0;
 }
